@@ -193,6 +193,22 @@ h2{
     width: 100px;
 }
 
+.menuItems{
+    display: none;
+    flex-direction: column;
+    background-color: #f4d35e;
+}
+
+.click{
+    display: flex;
+}
+
+.menuItemsText{
+    color: #1A315A;
+    font-weight: bold;
+}
+
+
 @media screen and (max-width:650px) {
     .card {
         display: flex;
