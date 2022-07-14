@@ -75,15 +75,14 @@ h2{
 
 
 .card{
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
     margin-bottom: 4%;
     background-color: #f5f5f5;
 }
 
 .card2{
-    display: inline-grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    flex-direction: row-reverse;
     margin-bottom:4%;
     background-color: #1A315A;
 }

@@ -8,6 +8,3 @@ $(".backToTop").on("click",function(){
     $(".btt").scrollTop();
   });
 
-  $("#button").click(function(){
-    alert($("div").scrollTop());
-  });
